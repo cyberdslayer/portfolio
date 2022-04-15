@@ -13,6 +13,8 @@
     --primary-color: hsl(var(--primary-color-hue), 75%, 60%);
     --black-color:#0E2431;
     --white-color:#fff;
+    --back-color:hsl(0, 0%, 98%);
+    ;
 
 }
 body{
@@ -263,7 +265,7 @@ section .button button:hover{
 
 /* My Skills CSS */
 .skills{
-  background:#f0f8ff;
+  background:var(--back-color);
 }
 .skills .content{
   padding:40px 0;
@@ -359,14 +361,14 @@ section .button button:hover{
 }
 
 /* Other skills */
-.background{
-  background: #f0f8ff;
+.back{
+  background: var(--back-color);
 }
 
 
 /* Contact Me CSS */
 .contact{
-  background: #f0f8ff;
+  /* background: #f0f8ff; */
 }
 .contact .content{
   margin:0 auto;
